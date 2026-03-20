@@ -1,9 +1,9 @@
-<h1 align="center">projectsFULLSTACK</h1>
+<h1 align="center">DockerDocs</h1>
 
 `main image`
 
 ## Description:
-Outline for general FULLSTACK DEVELOPMENT PROJECTs
+General Study for Docker and Docker related files and objects. 
 
 ## Technology Stack
 - **Frontend/Client:** React.js, HTML5, CSS, framework, etc.
@@ -35,13 +35,7 @@ Outline for general FULLSTACK DEVELOPMENT PROJECTs
     - Must be `cd`'d into frontend/client for install
     - MUI, `react-router-dom`, redux, formik, etc... (see resources)
 ```
-> npx create-react-app <project name>
-> cd <project name>
-> npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
-> npm install --save react-router-dom
-> npm install react-redux @reduxjs/toolkit
-> npm install formik yup dotenv react-responsive-carousel
-> npm install --save @stripe/react-stripe-js @stripe/stripe-js
+> docker build . 
 ```
 - Test front-end once pages are generated (ctrl-c to exit):
 ```
