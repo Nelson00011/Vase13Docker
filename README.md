@@ -94,11 +94,8 @@ Connect with me on <a href="https://github.com/oakHalo">Oakhalo.dev</a>
 - `Tech used and links associated`
 
 `<examples below>`
-- **PostMan** for API Tests [here](https://www.postman.com/)
-    - jsonwebtoken / [jwt](https://jwt.io/) for Authentification & install [here](https://www.npmjs.com/package/jsonwebtoken)
-    - jwt Debugger [here](https://jwt.io/#debugger-io)
-- **React.New** allows for testing new React projects [here](react.new)
-- [bcrypt.js](https://www.npmjs.com/package/bcryptjs) part of password hasing for user Authentification. 
+- **Docker Documentation** for various commands [here](https://docs.docker.com/reference/dockerfile/)
+    - Docker can build images automatically by reading the instructions from a Dockerfile
 
 
 #### **style:** 
