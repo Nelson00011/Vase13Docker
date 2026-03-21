@@ -36,10 +36,20 @@ General Study for Docker and Docker related files and objects.
     - MUI, `react-router-dom`, redux, formik, etc... (see resources)
 ```
 > docker build . 
+> docker ps
+> docker stop
 ```
-- Test front-end once pages are generated (ctrl-c to exit):
+- Once this image is built the image name can be obtained 'docker ps', this ID will be used for 'docker run <id>'. 
 ```
-> npm run start
+> docker ps -a
+```
+- Once this image stopped a 'ps-a' command should help. 
+```
+> docker run -p3000:80 <id>
+```
+- The <id> can be useful, however in the event  there is no other image a "all" function is allowed
+```
+> docker run a
 ```
 
 ### Back-End Helpful Instructions `<examples below>`
