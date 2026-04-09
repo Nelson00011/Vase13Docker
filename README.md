@@ -15,11 +15,6 @@ General Study for Docker and Docker related files and objects.
 ## Screen Shots:
 <p align="center">Please reference the screenshot folder for more available images</p>
 
-`selected image 1`
-
-`selected image 2`
-
-`selected image 3`
 
 ## Run Code (Environment)
 
@@ -39,17 +34,26 @@ General Study for Docker and Docker related files and objects.
 > docker ps
 > docker stop
 ```
-- Once this image is built the image name can be obtained 'docker ps', this ID will be used for 'docker run <id>'. 
+- Once this image is built the image name can be obtained `docker ps`, this ID will be used for `docker run <id>`. 
 ```
 > docker ps -a
 ```
-- Once this image stopped a 'ps-a' command should help. 
+- Once this image stopped a `ps-a` command should help. 
 ```
 > docker run -p3000:80 <id>
 ```
 - The <id> can be useful, however in the event  there is no other image a "all" function is allowed
 ```
 > docker run a
+```
+
+- The <id> can be useful, `-i` --interactive Keep STDIN open even if not attached. `-t` -- Allocate a pseudo-TTY
+```
+> docker run -t <id>
+```
+- Confirming images and than removing `c` containers or `i` images, becareful of `docker image prune` it removes all images
+```
+> docker images
 ```
 
 ### Back-End Helpful Instructions `<examples below>`
